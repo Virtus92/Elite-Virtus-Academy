@@ -15,7 +15,7 @@ class CourseMetaData {
   String? lp_level;
   String? lp_max_students;
   String? lp_no_required_enroll;
-  String? lp_passing_condition;
+  int? lp_passing_condition;
   String? lp_regular_price;
   List<String>? lp_requirements;
   String? lp_retake_count;

@@ -99,7 +99,7 @@ class CourseCardComponent extends StatelessWidget {
                       children: [
                         cachedImage(ic_book, height: 14, width: 14, fit: BoxFit.contain, color: context.iconColor),
                         4.width,
-                        if (course.course_data!.result!.items != null)
+                        if (course.course_data != null && course.course_data!.result!.items != null)
                           Text(
                             '${course.course_data!.result!.items!.lesson!.total!.validate().toString()} ${language.lessons}',
                             style: secondaryTextStyle(),

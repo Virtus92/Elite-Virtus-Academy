@@ -23,7 +23,7 @@ class CourseListModel {
   CourseMetaData? meta_data;
   String? name;
   bool? on_sale;
-  int? origin_price;
+  String? origin_price;
   String? origin_price_rendered;
   String? permalink;
   int? price;
