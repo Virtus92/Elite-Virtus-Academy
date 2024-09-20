@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>203176417957-1kri6qh2edloe0ffvt1mfb8tv0vjhnsr.apps.googleusercontent.com</string>
+	<string>601408664475-7h3n7nno1rr6fb8taft4g35u4ls7jtlt.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.203176417957-1kri6qh2edloe0ffvt1mfb8tv0vjhnsr</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>203176417957-2jsm7p68m9cbgddc2bf97l3lu6b46vv0.apps.googleusercontent.com</string>
+	<string>com.googleusercontent.apps.601408664475-7h3n7nno1rr6fb8taft4g35u4ls7jtlt</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAWCRMufFtzingnw9XX67BQM_OB9v09Wq0</string>
+	<string>AIzaSyC-ZvJpA_uRtqSUxEd9_vLumr7kX0RBo-c</string>
 	<key>GCM_SENDER_ID</key>
-	<string>203176417957</string>
+	<string>601408664475</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.iconic.socialv</string>
+	<string>academy.virtus.elite</string>
 	<key>PROJECT_ID</key>
-	<string>socialv-flutter</string>
+	<string>eva---elite-virtus-academia</string>
 	<key>STORAGE_BUCKET</key>
-	<string>socialv-flutter.appspot.com</string>
+	<string>eva---elite-virtus-academia.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:203176417957:ios:20f853fd078dd42d49cb4c</string>
+	<string>1:601408664475:ios:31d70588d2f282ed00273e</string>
 </dict>
 </plist>
