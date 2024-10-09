@@ -8,69 +8,110 @@ class AppTheme {
   AppTheme._();
 
   static final ThemeData lightTheme = ThemeData(
-    scaffoldBackgroundColor: appLayoutBackground,
-    primaryColor: appColorPrimary,
-    primaryColorDark: appColorPrimary,
+    scaffoldBackgroundColor: Color(0xFF061A24),
+    // Body background color
+    primaryColor: Color(0xFFDC1B1A),
+    // Primary color (rot)
+    primaryColorDark: Color(0xFFDC1B1A),
+    // Darker primary color
     useMaterial3: false,
-    hoverColor: Colors.white80,
-    dividerColor: bodyWhite.withOpacity(0.4),
-    fontFamily: GoogleFonts.plusJakartaSans().fontFamily,
+    hoverColor: Colors.white54,
+    dividerColor: Color(0xFF061A24).withOpacity(0.4),
+    // Adjusting opacity for body color
+    fontFamily: GoogleFonts
+        .plusJakartaSans()
+        .fontFamily,
     appBarTheme: AppBarTheme(
-      surfaceTintColor: appLayoutBackground,
-      color: appLayoutBackground,
-      iconTheme: IconThemeData(color: textPrimaryColor),
-      systemOverlayStyle: SystemUiOverlayStyle(statusBarIconBrightness: Brightness.dark),
+      surfaceTintColor: Color(0xFF061A24), // AppBar background color
+      color: Color(0xFF061A24),
+      iconTheme: IconThemeData(color: Color(0xFFFFFFFF)), // White icon color
+      systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarIconBrightness: Brightness.dark),
     ),
-    tabBarTheme: TabBarTheme(indicator: UnderlineTabIndicator(borderSide: BorderSide(color: Color(0xFFB6D5EF), width: 3))),
+    tabBarTheme: TabBarTheme(
+        indicator: UnderlineTabIndicator(borderSide: BorderSide(
+            color: Color(0xFFFFE400), width: 3)) // Yellow underline for tabs
+    ),
     textSelectionTheme: TextSelectionThemeData(cursorColor: Colors.black),
     cardTheme: CardTheme(color: Colors.white),
-    cardColor: appSectionBackground,
-    iconTheme: IconThemeData(color: textPrimaryColor),
-    bottomSheetTheme: BottomSheetThemeData(backgroundColor: whiteColor),
+    cardColor: Color(0xFF1B678C),
+    // Light gradient color for cards
+    iconTheme: IconThemeData(color: Color(0xFFFFFFFF)),
+    // White icon color
+    bottomSheetTheme: BottomSheetThemeData(backgroundColor: Colors.white),
     textTheme: TextTheme(
-      labelLarge: TextStyle(color: appColorPrimary),
-      titleLarge: TextStyle(color: textPrimaryColor),
-      titleSmall: TextStyle(color: textSecondaryColor),
+      labelLarge: TextStyle(color: Color(0xFFDC1B1A)),
+      // Primary color (rot) for large text
+      titleLarge: TextStyle(color: Color(0xFFFFFFFF)),
+      // White for large titles
+      titleSmall: TextStyle(
+          color: Color(0xFF003854)), // Secondary color (dark blue)
     ),
-    //visualDensity: VisualDensity.adaptivePlatformDensity,
     radioTheme: RadioThemeData(
-      fillColor: WidgetStateProperty.all(appColorPrimary),
-    ), colorScheme: ColorScheme.light(primary: appColorPrimary).copyWith(error: Colors.red),
+      fillColor: MaterialStateProperty.all(
+          Color(0xFFDC1B1A)), // Primary color for radio buttons
+    ),
+    colorScheme: ColorScheme.light(primary: Color(0xFFDC1B1A)).copyWith(
+        error: Colors.red), // Red error color
   ).copyWith(
-    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: appColorPrimary),
+    colorScheme: ColorScheme.fromSwatch().copyWith(
+        secondary: Color(0xFF003854)), // Secondary color (dark blue)
   );
 
   static final ThemeData darkTheme = ThemeData(
-    scaffoldBackgroundColor: appBackgroundColorDark,
+    scaffoldBackgroundColor: Color(0xFF0F1D24),
+    // Dark gradient background color
     useMaterial3: false,
-    highlightColor: appBackgroundColorDark,
+    highlightColor: Color(0xFF0F1D24),
     appBarTheme: AppBarTheme(
-      surfaceTintColor: appBackgroundColorDark,
-      color: appBackgroundColorDark,
-      iconTheme: IconThemeData(color: whiteColor),
-      systemOverlayStyle: SystemUiOverlayStyle(statusBarIconBrightness: Brightness.light),
+      surfaceTintColor: Color(0xFF0F1D24), // Dark gradient color for AppBar
+      color: Color(0xFF0F1D24),
+      iconTheme: IconThemeData(color: Colors.white), // White icon color
+      systemOverlayStyle: SystemUiOverlayStyle(
+          statusBarIconBrightness: Brightness.light),
     ),
-    primaryColor: appColorPrimary,
-    dividerColor: bodyDark.withOpacity(0.4),
-    primaryColorDark: appColorPrimary,
+    primaryColor: Color(0xFFDC1B1A),
+    // Primary color (rot)
+    dividerColor: Color(0xFF061A24).withOpacity(0.4),
+    // Divider with body color
+    primaryColorDark: Color(0xFFDC1B1A),
     textSelectionTheme: TextSelectionThemeData(cursorColor: Colors.white),
     hoverColor: Colors.black12,
-    fontFamily: GoogleFonts.plusJakartaSans().fontFamily,
-    bottomSheetTheme: BottomSheetThemeData(backgroundColor: appBackgroundColorDark),
-    primaryTextTheme: TextTheme(titleLarge: primaryTextStyle(color: Colors.white), labelSmall: primaryTextStyle(color: Colors.white)),
-    cardTheme: CardTheme(color: cardBackgroundBlackDark),
-    cardColor: cardBackgroundBlackDark,
-    iconTheme: IconThemeData(color: whiteColor),
-    textTheme: TextTheme(
-      labelLarge: TextStyle(color: appColorPrimary),
-      titleLarge: TextStyle(color: whiteColor),
-      titleSmall: TextStyle(color: Colors.white80),
+    fontFamily: GoogleFonts
+        .plusJakartaSans()
+        .fontFamily,
+    bottomSheetTheme: BottomSheetThemeData(backgroundColor: Color(0xFF0F1D24)),
+    // Dark gradient background
+    primaryTextTheme: TextTheme(
+      titleLarge: TextStyle(color: Colors.white), // White text
+      labelSmall: TextStyle(color: Colors.white), // White small text
     ),
-    tabBarTheme: TabBarTheme(indicator: UnderlineTabIndicator(borderSide: BorderSide(color: Colors.white))),
+    cardTheme: CardTheme(color: Color(0xFF003854)),
+    // Secondary color for card background
+    cardColor: Color(0xFF003854),
+    // Secondary color
+    iconTheme: IconThemeData(color: Colors.white),
+    // White icons
+    textTheme: TextTheme(
+      labelLarge: TextStyle(color: Color(0xFFFFE400)),
+      // Yellow for large labels
+      titleLarge: TextStyle(color: Colors.white),
+      // White for large titles
+      titleSmall: TextStyle(
+          color: Colors.white54), // Light white text for small titles
+    ),
+    tabBarTheme: TabBarTheme(indicator: UnderlineTabIndicator(
+        borderSide: BorderSide(color: Colors.white))),
     radioTheme: RadioThemeData(
-      fillColor: WidgetStateProperty.all(appColorPrimary),
-    ), colorScheme: ColorScheme.dark(primary: appBackgroundColorDark, onPrimary: cardBackgroundBlackDark).copyWith(secondary: whiteColor).copyWith(error: Color(0xFFCF6676)),
+      fillColor: MaterialStateProperty.all(
+          Color(0xFFDC1B1A)), // Primary color for radio buttons
+    ),
+    colorScheme: ColorScheme.dark(primary: Color(0xFF0F1D24),
+        onPrimary: Color(0xFF003854)) // Dark gradient and secondary colors
+        .copyWith(secondary: Colors.white) // White for secondary elements
+        .copyWith(error: Color(0xFFCF6676)), // Red error color
   ).copyWith(
-    colorScheme: ColorScheme.fromSwatch().copyWith(secondary: appColorPrimary),
+    colorScheme: ColorScheme.fromSwatch().copyWith(
+        secondary: Color(0xFFDC1B1A)), // Primary color for secondary elements
   );
 }
