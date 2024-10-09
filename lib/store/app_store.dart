@@ -580,7 +580,7 @@ abstract class AppStoreBase with Store {
       shadowColorGlobal = Colors.white12;
     } else {
       textPrimaryColorGlobal = Colors.white;
-      textSecondaryColorGlobal = bodyWDark;
+      textSecondaryColorGlobal = bodyDark;
 
       defaultLoaderBgColorGlobal = Colors.white;
       appButtonBackgroundColorGlobal = appColorPrimary;
