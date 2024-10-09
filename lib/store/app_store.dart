@@ -580,11 +580,11 @@ abstract class AppStoreBase with Store {
       shadowColorGlobal = Colors.white12;
     } else {
       textPrimaryColorGlobal = textPrimaryColor;
-      textSecondaryColorGlobal = bodyWhite;
+      textSecondaryColorGlobal = bodyDark;
 
       defaultLoaderBgColorGlobal = Colors.white;
       appButtonBackgroundColorGlobal = appColorPrimary;
-      shadowColorGlobal = Colors.black12;
+      shadowColorGlobal = Colors.white12;
     }
 
     if (!isFromMain) setStatusBarColor(isDarkMode ? appBackgroundColorDark : appLayoutBackground, delayInMilliSeconds: 300);
