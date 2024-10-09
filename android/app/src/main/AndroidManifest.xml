@@ -6,7 +6,7 @@
     <application
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
-        android:label="Elite Virtus Academia"
+        android:label="SocialV"
         android:usesCleartextTraffic="true">
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_channel_id"
@@ -40,8 +40,8 @@
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="https" />
-                <data android:host="elite-virtus.academy" />
-                <data android:pathPrefix="/activity/" />
+                <data android:host="apps.iqonic.design" />
+                <data android:pathPrefix="/socialv/activity/" />
 
             </intent-filter>
 

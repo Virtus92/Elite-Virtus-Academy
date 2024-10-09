@@ -43,8 +43,8 @@ const mTestAdMobBannerId = '';
 /// Woo Commerce keys
 
 //live
-const CONSUMER_KEY = '';
-const CONSUMER_SECRET = '';
+const CONSUMER_KEY = 'ck_3d5a0ff7ed8e800611ffe4a3b340696a26c8eff0';
+const CONSUMER_SECRET = 'cs_07c3a904288d5532c3c94c9d3f5cdd73338789e4';
 
 
 /// STRIPE PAYMENT DETAIL
@@ -65,11 +65,11 @@ Country defaultCountry() {
     geographic: true,
     level: 1,
     name: 'Austria',
-    example: '4323456789',
+    example: '+4323456789',
     displayName: 'Austria (AT) [+43]',
     displayNameNoCountryCode: 'Austria (AT)',
     e164Key: '43-IN-0',
-    fullExampleWithPlusSign: '+439123456789',
+    fullExampleWithPlusSign: '+436123456789',
   );
 }
 

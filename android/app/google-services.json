@@ -40,42 +40,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:601408664475:android:2bded0d17f0def9800273e",
-        "android_client_info": {
-          "package_name": "com.eva"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "601408664475-qrc69ab4ecjqdktccgc7m3l9hutm8sru.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCSjMom4jt_tFTxVjDYtE9j9uCQgjhVVs0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "601408664475-qrc69ab4ecjqdktccgc7m3l9hutm8sru.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "601408664475-7h3n7nno1rr6fb8taft4g35u4ls7jtlt.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "academy.virtus.elite"
-              }
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"

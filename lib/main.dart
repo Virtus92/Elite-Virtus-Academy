@@ -176,7 +176,7 @@ class _MyAppState extends State<MyApp> {
           debugShowCheckedModeBanner: false,
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
-          themeMode: ThemeMode.dark,
+          themeMode: appStore.isDarkMode ? ThemeMode.dark : ThemeMode.light,
           home: SplashScreen(),
           supportedLocales: LanguageDataModel.languageLocales(),
           localizationsDelegates: [

@@ -42,7 +42,7 @@ class DefaultFirebaseOptions {
 
   static final FirebaseOptions firebaseConfig = FirebaseOptions(
     apiKey: 'AIzaSyCSjMom4jt_tFTxVjDYtE9j9uCQgjhVVs0',
-    appId: isIOS ? '1:601408664475:android:2bded0d17f0def9800273e' : '1:601408664475:ios:31d70588d2f282ed00273e',
+    appId: isIOS ? '1:601408664475:android:4bdc5ac28dfbc90800273e' : '1:601408664475:ios:31d70588d2f282ed00273e',
     messagingSenderId: '601408664475',
     projectId: 'eva---elite-virtus-academia',
     storageBucket: 'eva---elite-virtus-academia.appspot.com',
